@@ -31,18 +31,34 @@ export default function Home() {
           <Image src={nlwLogo} alt="NLW Spacetime" />
 
           <div className="max-w-[420px] space-y-1">
-            <h1 className="mt-5 text-5xl font-bold leading-tight text-gray-50">
+            <h1 className=" text-5xl font-bold leading-tight text-gray-50">
               Sua cápsula do tempo
             </h1>
-            <p className="mt-' text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed">
               Colecione momentos marcantes de suas jornada e compartilhe (se
               quiser) com o mundo!
             </p>
           </div>
 
-          <a className="inline-block" href="">
+          <a
+            className="inline-block rounded-full bg-green-500 px-3 py-3 font-alt text-sm uppercase leading-none text-black hover:bg-green-600"
+            href=""
+          >
             CADASTRAR LEMBRANÇA
           </a>
+        </div>
+        {/* Copyright */}
+        <div className="text-sm leading-relaxed text-gray-200">
+          Feito com 🚀 no NlW da{' '}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            className="underline hover:text-gray-100"
+            href="https://rocketseat.com.br"
+          >
+            {' '}
+            Rocketseat
+          </a>{' '}
         </div>
       </div>
 
